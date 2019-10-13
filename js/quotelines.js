@@ -1,4 +1,3 @@
-/*Page last edited 9/12/2019*/
 var lines = [
 'Every time you come here, you have to do everything from the beginning. Again, and again... (1)',
 'I feel very lonely, when nobody\'s here. (2)',
