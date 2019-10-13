@@ -13,3 +13,5 @@ Please use the issue tracker to post a problem.
 
 If editing, post what editor you're using.<br>
 If viewing, post what browser you're using!
+
+### Be sure to check out the Milestones page under Issues to see what will be in the future releases!
