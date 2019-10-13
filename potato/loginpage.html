@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html>
+<head>
+    <!--This page is in the Potato branch for storage and archival. It is not in use-->
+    <meta charset="UTF-8">
+    <title>zone 1</title>
+    <link rel="stylesheet" type="text/css" href="../css.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+    </style>
+</head>
+<body>
+<form name="loginForm" method="post" action="..\rice\plain.html">
+<center>
+<span>Username:</span>
+<input type="text" size=25 name="userid"><br>
+<span>Password:</span>
+<input type="Password" size=25 name="pwd"><br>
+<input type="submit" onclick="return check(this.form)" value="Authenticate">
+</center>
+</form>
+<script language="javascript">
+function check(form)
+{
+if(form.userid.value == "Remona" && form.pwd.value == "oranges")
+{
+	return true;
+}
+if(form.userid.value == "remona" && form.pwd.value == "oranges")
+{
+	return true;
+}
+if(form.userid.value == "Add" && form.pwd.value == "oranges")
+{
+	return true;
+}
+if(form.userid.value == "add" && form.pwd.value == "oranges")
+{
+	return true;
+}
+else
+{
+	alert("Wrong")
+	return false;
+}
+}
+</script>
+</body>
+</html>
