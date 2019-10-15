@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <title>zone ##</title>
     <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" media="screen and (min-width: 721px)" href="../css/desktop.css">
+<link rel="stylesheet" media="screen and (max-width: 720px)" href="../css/mobile.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -14,21 +16,22 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script type="text/javascript">
-        if (screen.width <= 720) {
-        window.location = "./PAGENAME_mobile.html";
-    }
-    </script>
     </head>
 <body onload="genLine()">
     <!--Pulls a random quote from ../quotelines.js for use in display call-->
-    <table style="width:100%">
+    <table style="width:100%" id="desktoptable">
         <tr>
             <td><div style="font-style:italic;text-align:left" id="display"></div></td> <!--Displays a random quote from ../quotelines.js-->
             <td style="text-align:right; color:gray"><i>Welcome back, Remona.</i></td>
         </tr>
     </table>
-    <!--Begin file here-->
+    <table style="width:100%" id="mobiletable">
+        <tr>
+            <td style="text-align:right; color:gray"><i>Welcome back, Remona.</i></td>
+        </tr>
+        <tr>
+            <td><div style="font-style:italic;text-align:left" id="display2"></div></td> <!--Displays a random quote from ../quotelines.js-->
+        </tr>
     <script src="../js/quotelines.js"></script> <!--Link to quote lines and script to randomly pull one on load-->
 </body>
 </html>
