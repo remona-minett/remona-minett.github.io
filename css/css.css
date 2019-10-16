@@ -13,3 +13,16 @@ table.center {
     margin-left: auto;
     margin-right: auto;
 }
+.Grid {
+  display: flex;
+  text-align: center;
+  height: 60vh;
+}
+.col {
+  flex: 1;
+}
+@media (max-width: 720px) {
+  .Grid {
+    display: block;
+  }
+}
