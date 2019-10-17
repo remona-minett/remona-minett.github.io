@@ -4,8 +4,9 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.1.0   | :heavy_check_mark: |
-| 1.0.0   | :heavy_check_mark: |
+| 2.0.0   | :heavy_check_mark: |
+| 1.1.0   | :x:                |
+| 1.0.0   | :x:                |
 | < 1.0   | :x:                |
 
 ## Reporting a Problem
