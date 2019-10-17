@@ -15,4 +15,5 @@ var lines = [
 function genLine() {
   var randNum = Math.floor(Math.random() * (lines.length));
   document.getElementById('display').innerHTML = lines[randNum];
+  document.getElementById('display2').innerHTML = lines[randNum];
 }

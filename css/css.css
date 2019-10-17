@@ -1,0 +1,29 @@
+a {
+    color: #ff99ff;
+    text-decoration-line: none;
+}
+body {
+    color:white;
+    background-color:black;
+    font-family:Courier New, Courier, monospace;
+}
+table.center {
+    width: 75%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Grid {
+  display: flex;
+  text-align: center;
+  height: 60vh;
+  justify-content: center;
+}
+.col {
+  flex: 1;
+}
+@media (max-width: 720px) {
+  .Grid {
+    display: block;
+  }
+}
