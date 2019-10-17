@@ -17,6 +17,7 @@ table.center {
   display: flex;
   text-align: center;
   height: 60vh;
+  justify-content: center;
 }
 .col {
   flex: 1;
