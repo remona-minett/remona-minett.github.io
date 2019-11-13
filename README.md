@@ -1,4 +1,4 @@
-### This is my homemade homepage! Feel free to download a release of it if you want to copy it's layout or experiment. I'm willing to help out if anyone needs assistance understanding it, if the need be.
+### This is my homemade homepage! Feel free to download a release of it if you want to copy it's layout or experiment. I can help out if a beginner wants to see how the page is made. It's not too complex.
 
 ## Supported Versions (Releases) for issue tracking.
 
