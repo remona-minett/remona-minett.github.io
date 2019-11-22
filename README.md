@@ -1,13 +1,13 @@
 ### This is my homemade homepage! Feel free to download a release of it if you want to copy it's layout or experiment. I can help out if a beginner wants to see how the page is made. It's not too complex.
 
-## Supported Versions (Releases) for issue tracking.
+## Supported Versions (Releases) for issues.
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 2.1.0   | :heavy_check_mark: |
 | 2.0.0   | :heavy_check_mark: |
 | 1.1.0   | :x:                |
 | 1.0.0   | :x:                |
-| < 1.0   | :x:                |
 
 ## Reporting a Problem
 
