@@ -2,13 +2,20 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>zone ##</title>
+    <title>zone 21</title>
     <link rel="stylesheet" type="text/css" href="../css/css.css">
     <link rel="stylesheet" media="screen and (min-width: 721px)" href="../css/desktop.css">
 <link rel="stylesheet" media="screen and (max-width: 720px)" href="../css/mobile.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+     h1, ul {
+        align-items: center;
+        padding-left: 20%;
+        padding-right: 20%;
+     }
+    </style>
     </head>
 <body onload="genLine()">
     <!--Pulls a random quote from ../quotelines.js for use in display call-->
@@ -26,9 +33,16 @@
             <td><div style="font-style:italic;text-align:left" id="display2"></div></td> <!--Displays a random quote from ../quotelines.js-->
         </tr>
     </table>
-
-    <!--Put page content here-->
-
+    <h1>Wiki listings for "Places":</h1>
+    <ul>
+        <li><a href="./places/angry_princess_tavern.html">Angry Princess</a></li>
+        <li><a href="./places/city_of_the_gods.html">City of the Gods</a></li>
+        <li><a href="./places/crystal_forest.html">Crystal Forest</a></li>
+        <li><a href="./places/land_of_the_gods.html">Land of the Gods</a></li>
+        <li><a href="./places/northern_foothills.html">Northern Foothills</a></li>
+        <li><a href="./places/pinebluff.html">Pinebluff</a></li>
+        <li><a href="./places/the_spire.html">The Spire</a></li>
+    </ul>
     <script src="../js/quotelines.js"></script> <!--Link to quote lines and script to randomly pull one on load-->
 </body>
 </html>
