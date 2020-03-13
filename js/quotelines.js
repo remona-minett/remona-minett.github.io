@@ -9,7 +9,9 @@ var lines = [
 'Don\'t waste your time for nothing. (8)',
 'If you believe in something, then first believe that it is possible. (9)',
 'Loneliness is not fun. (10)',
-'I will tell you about myself someday. (11)'
+'I will tell you about myself someday. (11)',
+'Close your eyes, and you\'ll leave this place. (12)',
+'Goodnight. (13)'
 ]
 
 function genLine() {
