@@ -15,12 +15,12 @@
     <table style="width:100%" id="desktoptable">
         <tr>
             <td><div style="font-style:italic;text-align:left" id="display"></div></td> <!--Displays a random quote from ../quotelines.js-->
-            <td style="text-align:right; color:gray"><i>Welcome back, <span id="namebox"></span>.</i></td>
+            <td style="text-align:right; color:gray"><i>Welcome back, <span class="namebox"></span>.</i></td>
         </tr>
     </table>
     <table style="width:100%" id="mobiletable">
         <tr>
-            <td style="text-align:right; color:gray"><i>Welcome back, <span id="namebox2"></span>.</i></td>
+            <td style="text-align:right; color:gray"><i>Welcome back, <span class="namebox"></span>.</i></td>
         </tr>
         <tr>
             <td><div style="font-style:italic;text-align:left" id="display2"></div></td> <!--Displays a random quote from ../quotelines.js-->
@@ -43,7 +43,7 @@
         localStorage.setItem('local', "visitor")
     }
 </script> <!--Script thanks to https://stackoverflow.com/a/60714758/10470394, modifications by me.-->
-<script>document.getElementById("namebox").innerHTML = localStorage.getItem('local'); document.getElementById("namebox2").innerHTML = localStorage.getItem('local');</script>
+<script>document.getElementsByClassName("namebox")[0].innerHTML = localStorage.getItem('local'); document.getElementsByClassName("namebox")[1].innerHTML = localStorage.getItem('local');</script>
 <script src="../js/quotelines.js"></script> <!--Link to quote lines and script to randomly pull one on load-->
 </body>
 </html>
