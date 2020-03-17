@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>zone 99</title>
+    <title>zone 22</title>
     <link rel="stylesheet" type="text/css" href="../css/css.css">
     <link rel="stylesheet" media="screen and (min-width: 721px)" href="../css/desktop.css">
     <link rel="stylesheet" media="screen and (max-width: 720px)" href="../css/mobile.css">
@@ -39,6 +39,9 @@
     //    document.getElementById('local-input').value = localStorage.getItem('local')
     //}
     /*else*/ if(localStorage.getItem('local') == "") {
+        localStorage.setItem('local', "visitor")
+    }
+    else if(localStorage.getItem('local') == null) {
         localStorage.setItem('local', "visitor")
     }
 </script> <!--Script thanks to https://stackoverflow.com/a/60714758/10470394, modifications by me.-->
