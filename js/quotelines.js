@@ -22,7 +22,7 @@ var lines = [
 'Being alive is pretty much a constant stream of embarassment. (21)',
 'Life is all about the struggle within the never ending spiral of life and death. (22)',
 'It doesn\'t matter. None of this matters. Isn\'t that hilarious? Doesn\'t it make you laugh? (23)',
-'Even if it\'s pointless, we still have to do it. (24)',
+'Even if it\'s pointless, we still have to do it. (24)'
 ]
 
 function genLine() {
