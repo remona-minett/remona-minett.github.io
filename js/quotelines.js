@@ -15,7 +15,7 @@ var lines = [
 'Everything that lives is designed to end. (14)',
 'The more of a fool people take you for, the more you\'ll learn of their true nature. (15)',
 'A future is not given to you. It is something you must take for yourself. (16)',
-'The time I was able to spend with you, it was like memories of pur light... (17)',
+'The time I was able to spend with you, it was like memories of pure light... (17)',
 'It always ends like this. (18)',
 'I\'m not quite sure what it means to mourn, or if we even have a soul to concern ourselves with. (19)',
 'Why do I desire the touch of something that no longer exists? (20)',
