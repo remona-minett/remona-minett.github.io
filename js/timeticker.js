@@ -32,7 +32,7 @@ function updateTime() {
     ampm = h >= 12 ? 'pm' : 'am'; 
     date = dayarray[day] + ",\xa0" + montharray[month] + " " + daym + " " + year;
     time = checkHour(h) + ":" + m + s;
-    var styledtime = time.substring(0, time.length-2)+ " " + '<span id=seconds>'+time.substring(time.length-2,time.length)+'</span>';
+    var styledtime = time.substring(0, time.length-2)+ "" + '<span id=seconds>:'+time.substring(time.length-2,time.length)+'</span>';
     document.getElementById("date").innerHTML = date;
     
     document.getElementById("time").innerHTML = styledtime;

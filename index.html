@@ -23,12 +23,12 @@
     <table style="width:100%" id="desktoptable">
         <tr>
             <td><div style="font-style:italic;text-align:left" id="display"></div></td> <!--Displays a random quote from ./quotelines.js-->
-            <td style="text-align:right; color:gray"><i>Welcome back, <span class="namebox"></span>.</i></td> <!-- Add mouseover name change / on click for mobile? -->
+            <td style="text-align:right; color:gray"><i>Welcome back, <a href="./main/nameset.html" style="color:lightgray !important"><span class="namebox"></span></a>.</i></td> <!-- Add mouseover name change / on click for mobile? -->
         </tr>
     </table>
     <table style="width:100%" id="mobiletable">
         <tr>
-            <td style="text-align:right; color:gray"><i>Welcome back, <span class="namebox"></span>.</i></td>
+            <td style="text-align:right; color:gray"><i>Welcome back, <a href="./main/nameset.html" style="color:lightgray !important"><span class="namebox"></span></a>.</i></a></td>
         </tr>
         <tr>
             <td><div style="font-style:italic;text-align:left" id="display2"></div></td> <!--Displays a random quote from ./quotelines.js-->
@@ -55,9 +55,9 @@
                 <li><a href="./hubs/misc.html" target="dirframe2">Misc Hub</a></li>
             </ul>
             <h2><u>Other pages:</u></h2>
-            <p><a href="./main/about.html">About</a></p>
+            <p></p>
             <p><a href="./main/music_list.html">Music</a></p>
-            <p><a href="./main/nameset.html">Set Name</a></p>
+            <!-- <p><a href="./main/nameset.html">Set Name</a></p> -->
             <!-- <p><a href="./blog/blog.html">Blog</a></p> -->
             <!-- <p><a href="./wiki/main.html">Wiki (Under Construction)</a></p> -->
             <p><a href="https://github.com/remona-minett/">My GitHub</a></p>
@@ -71,15 +71,20 @@
             <p>
                 Welcome. Enjoy your time here.<br>
                 <div id="datecontainer">
-                    <i style="color:gray">Local Date:</i><div id="date"></div>
-                    <i style="color:gray">Local Time:</i><div id="time"></div><div class="small" id="seconds"></div>
+                    <i style="color:gray">Local Date / Time:</i><div id="date"></div><div id="time"></div><div class="small" id="seconds">
                 </div>
             </p>
         <br id="mobile"></div>
     </div>
+    <table style="width:99.5%; position: fixed; bottom:0px;">
+        <tr>
+            <td style="text-align:left; color:gray">Last updated Oct 15 2020</td>
+            <td style="text-align:right; color:gray"><a href="./main/about.html">About</a></td>
+        </tr>
+    </table>
     <script>
         if(localStorage.getItem('local') == null) {
-        localStorage.setItem('local', "visitor")
+        localStorage.setItem('local', "visitor. Click here")
     }</script>
     <script>document.getElementsByClassName("namebox")[0].innerHTML = localStorage.getItem('local'); document.getElementsByClassName("namebox")[1].innerHTML = localStorage.getItem('local');</script>
     <script src="./js/quotelines.js"></script> <!--Link to quote lines and script to randomly pull one on load-->
