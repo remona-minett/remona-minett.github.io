@@ -27,3 +27,6 @@ table.center {
     display: block;
   }
 }
+#seconds {
+    font-size: 75%;
+}

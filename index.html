@@ -23,7 +23,7 @@
     <table style="width:100%" id="desktoptable">
         <tr>
             <td><div style="font-style:italic;text-align:left" id="display"></div></td> <!--Displays a random quote from ./quotelines.js-->
-            <td style="text-align:right; color:gray"><i>Welcome back, <span class="namebox"></span>.</i></td>
+            <td style="text-align:right; color:gray"><i>Welcome back, <span class="namebox"></span>.</i></td> <!-- Add mouseover name change / on click for mobile? -->
         </tr>
     </table>
     <table style="width:100%" id="mobiletable">
@@ -61,9 +61,6 @@
             <!-- <p><a href="./blog/blog.html">Blog</a></p> -->
             <!-- <p><a href="./wiki/main.html">Wiki (Under Construction)</a></p> -->
             <p><a href="https://github.com/remona-minett/">My GitHub</a></p>
-            <h2><u>Game Pages:</u></h2>
-            <p><a href="https://remona-minett.github.io/space-station-13-idle-legacy">SS13 Idle Legacy</a></p>
-            <p><a href="https://remona-minett.github.io/space-station-13-idle-custom">SS13 Idle Custom</a></p>
         <br id="mobile"></div>
         <div class="col">
             <iframe name="dirframe" style="border: 0" height="100%" id="desktop"></iframe>
@@ -72,7 +69,11 @@
         <div class="col">
             <u></u><br>
             <p>
-                Welcome. Enjoy your time here.
+                Welcome. Enjoy your time here.<br>
+                <div id="datecontainer">
+                    <i style="color:gray">Local Date:</i><div id="date"></div>
+                    <i style="color:gray">Local Time:</i><div id="time"></div><div class="small" id="seconds"></div>
+                </div>
             </p>
         <br id="mobile"></div>
     </div>
@@ -82,5 +83,6 @@
     }</script>
     <script>document.getElementsByClassName("namebox")[0].innerHTML = localStorage.getItem('local'); document.getElementsByClassName("namebox")[1].innerHTML = localStorage.getItem('local');</script>
     <script src="./js/quotelines.js"></script> <!--Link to quote lines and script to randomly pull one on load-->
+    <script src="./js/timeticker.js"></script>
 </body>
 </html>
