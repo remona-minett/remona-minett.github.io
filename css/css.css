@@ -31,7 +31,7 @@ table.center {
     font-size: 75%;
 }
 #wrapper {
-    position: absolute;
+    position: fixed;
     top:  50%;
     left: 50%;
     transform: translate(-50%,-50%);
