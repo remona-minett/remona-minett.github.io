@@ -9,13 +9,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base target="_parent">
     </head>
 <body onload="genLine()">
     <h2 style="text-align: center;">Productive</h2>
     <ul>
-        <li><a target="_top" href="https://github.com">GitHub</a></li>
-        <li><a target="_top" href="https://drive.google.com/drive/my-drive">Google Drive</a></li>
-        <li><a target="_top" href="https://www.w3schools.com">W3Schools</a></li>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="https://drive.google.com/drive/my-drive">Google Drive</a></li>
+        <li><a href="https://www.w3schools.com">W3Schools</a></li>
     </ul>
     <script>document.getElementsByClassName("namebox")[0].innerHTML = localStorage.getItem('local'); document.getElementsByClassName("namebox")[1].innerHTML = localStorage.getItem('local');</script><script src="../js/quotelines.js"></script><!--Link to quote lines and script to randomly pull one on load-->
 </body>
