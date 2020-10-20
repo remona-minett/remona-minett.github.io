@@ -27,7 +27,8 @@ var lines = [
 'I know you can do it. Stay with me. (#26)',
 'If you\'re not scared of death, how can you value life? (#27)',
 'No matter what you, me or anybody else does, humanity has a few hundred thousand years left, tops. (#28)',
-'Somewhere along the way, I started changing. Found people that put their faith into me. That kept the lights on. (#29)'
+'Somewhere along the way, I started changing. Found people that put their faith into me. That kept the lights on. (#29)',
+'The paths we walk become roads for the future. (#30)'
 ]
 
 function genLine() {
