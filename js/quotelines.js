@@ -28,7 +28,9 @@ var lines = [
 'If you\'re not scared of death, how can you value life? (#27)',
 'No matter what you, me or anybody else does, humanity has a few hundred thousand years left, tops. (#28)',
 'Somewhere along the way, I started changing. Found people that put their faith into me. That kept the lights on. (#29)',
-'The paths we walk become roads for the future. (#30)'
+'The paths we walk become roads for the future. (#30)',
+'It\'s time to let go of the past and look foward, to the future. (#31)',
+'You need to find what\'s best for you. If that means my departure, then so be it. (#32)'
 ]
 
 function genLine() {
