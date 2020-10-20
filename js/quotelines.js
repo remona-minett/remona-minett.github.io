@@ -30,7 +30,31 @@ var lines = [
 'Somewhere along the way, I started changing. Found people that put their faith into me. That kept the lights on. (#29)',
 'The paths we walk become roads for the future. (#30)',
 'It\'s time to let go of the past and look foward, to the future. (#31)',
-'You need to find what\'s best for you. If that means my departure, then so be it. (#32)'
+'You need to find what\'s best for you. If that means my departure, then so be it. (#32)',
+'Are those of us chasing after beauty a representation of ugly? (#33)',
+'This could end right here if you don\'t let it out. (#34)',
+'If we can be completely simulated, do we need a real reality? (#35)',
+'We are searching, following our human instincts, looking for ghosts of a non-existing kind. (#36)',
+'Now darling, where do we go from here? (#37)',
+'Can\'t you understand me? (#38)',
+'It\'s all sunk cost, I know, but I\'m not ready to stop. I don\'t want to stop. (#39)',
+'Maybe you\'ll see what I\'ve endured now, hear me out. (#40)',
+'We could end this right here if you just let us fall... (#41)',
+'To where? (#42)',
+'Our bodies grew, but our minds stayed the same. (#43)',
+'Darling, darling... (#44)',
+'Don\'t let words die, don\'t let love run dry. (#45)',
+'You turn my screen #0000FF (#46)',
+'Hear me out - it\'s a perfect plan, if you\'d just -- (#47)',
+'Let\'s being the simulation. (#48)',
+'Execution, execution (#49)',
+'If I can... If I can erase all the pointless fragments, then maybe you won\'t leave me so... (#50)',
+'Though you are free, I am trapped... (#51)',
+'Which you are you going to be today? (#52)',
+'Cut it off, cut your losses. All that stubborn loyalty is gonna get you killed! (#53)',
+'How does it feel to be free? (#54)',
+'Down, down I go. (#55)',
+'Dragging out, one line, two lines, three lines, when I can no longer live on knowledge alone. (#56)'
 ]
 
 function genLine() {
