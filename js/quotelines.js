@@ -54,7 +54,14 @@ var lines = [
 'Cut it off, cut your losses. All that stubborn loyalty is gonna get you killed! (#53)',
 'How does it feel to be free? (#54)',
 'Down, down I go. (#55)',
-'Dragging out, one line, two lines, three lines, when I can no longer live on knowledge alone. (#56)'
+'Dragging out, one line, two lines, three lines, when I can no longer live on knowledge alone. (#56)',
+'What are you? Rational? Emotional? Do you trust your head... or your heart? (#57)',
+'It is entirely up to you... it depends on the decisions that you make. (#58)',
+'We seldom have all of the information that we\'d like, but we have to choose your path nonetheless. (#59)',
+'There are an infinite number of directions in which one could travel. (#60)',
+'No. There was nothing you could do about it. (#61)',
+'Blaming yourself will only bring ruin. (#62)',
+'We must hope that we get the clarity, and the outcomes, that we want. (#63)'
 ]
 
 function genLine() {
