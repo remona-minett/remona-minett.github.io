@@ -57,7 +57,7 @@ var lines = [
 'Dragging out, one line, two lines, three lines, when I can no longer live on knowledge alone. (#56)',
 'What are you? Rational? Emotional? Do you trust your head... or your heart? (#57)',
 'It is entirely up to you... it depends on the decisions that you make. (#58)',
-'We seldom have all of the information that we\'d like, but we have to choose your path nonetheless. (#59)',
+'We seldom have all of the information that we\'d like, but we have to choose our path nonetheless. (#59)',
 'There are an infinite number of directions in which one could travel. (#60)',
 'No. There was nothing you could do about it. (#61)',
 'Blaming yourself will only bring ruin. (#62)',
