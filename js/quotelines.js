@@ -46,7 +46,7 @@ var lines = [
 'Don\'t let words die, don\'t let love run dry. (#45)',
 'You turn my screen #0000FF (#46)',
 'Hear me out - it\'s a perfect plan, if you\'d just -- (#47)',
-'Let\'s being the simulation. (#48)',
+'Let\'s begin the simulation. (#48)',
 'Execution, execution (#49)',
 'If I can... If I can erase all the pointless fragments, then maybe you won\'t leave me so... (#50)',
 'Though you are free, I am trapped... (#51)',
