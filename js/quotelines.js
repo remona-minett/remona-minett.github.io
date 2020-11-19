@@ -24,7 +24,7 @@ var lines = [
 'It doesn\'t matter. None of this matters. Isn\'t that hilarious? Doesn\'t it make you laugh? (#23)',
 'Even if it\'s pointless, we still have to do it. (#24)',
 'I had the strangest dream. (#25)',
-'I know you can do it. Stay with me. (#26)',
+'I know you can do it! Stay with me! (#26)',
 'If you\'re not scared of death, how can you value life? (#27)',
 'No matter what you, me or anybody else does, humanity has a few hundred thousand years left, tops. (#28)',
 'Somewhere along the way, I started changing. Found people that put their faith into me. That kept the lights on. (#29)',
