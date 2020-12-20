@@ -61,7 +61,19 @@ var lines = [
 'There are an infinite number of directions in which one could travel. (#60)',
 'No. There was nothing you could do about it. (#61)',
 'Blaming yourself will only bring ruin. (#62)',
-'We must hope that we get the clarity, and the outcomes, that we want. (#63)'
+'We must hope that we get the clarity, and the outcomes, that we want. (#63)',
+'Us losers do nothing so winners keep winning (#64)',
+'Who makes us whole from the very beginning? (#65)',
+'We keep chasing, dreaming, about the perfect being. (#66)',
+'No tears, no regrets, no zero-days at our fault. (#67)',
+'If you\'d just shut up then maybe you\'ll see what I\'ve endured now... (#68)',
+'If you\'re lucky, you won\'t rot... (#69)',
+'I\'m a nervous man, in awe of everything, I\'m an awesome man. (#70)',
+'I just can\'t provide any answers for this. (#71)',
+'I\'m on the team, the immovable object. (#72)',
+'Oh, it\'s so ha-ha. Ha-ha-ha-ha. (#73)',
+'Now you realize things have gotten out of control, there\'s no thinking time. (#74)',
+'You better pull up your trousers, there\'s no belts allowed. (#75)'
 ]
 
 function genLine() {
