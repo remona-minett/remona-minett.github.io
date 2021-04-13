@@ -9,7 +9,7 @@ var m=mydate.getMinutes();//Minutes
 var s=mydate.getSeconds();//Seconds
 var ampm = h >= 12 ? 'pm' : 'am';
 //list days and months...
-var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+var dayarray=new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
 var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
 
 updateTime();
